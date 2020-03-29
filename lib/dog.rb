@@ -21,5 +21,11 @@ def self.print_all
   end
     
     def save
-      @all <
+      @all << self
+      
+    def name
+      @name 
+    end
+end    
+
     
